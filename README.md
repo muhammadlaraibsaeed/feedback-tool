@@ -14,7 +14,7 @@ Make sure your internet connection is active because I am using the Content Deli
 -   Create a local copy of the repository.
 -   Make sure you have xxamp or something similiar.
 -   Create a database, name it 'laravel_ikionic'.
--   Setup .env file
+-   Setup .env file `cp .env .example .env`
 -   Run `composer install` and `php artisan key:generate`.
 -   When you see the login page, head over the register page, create an account and log in. After that you wil able do following thiings Add ,Comments,Like,Dislikes FeedBack.
 -   `php artisan migrate` For Migration Table Into Database
