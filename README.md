@@ -16,10 +16,11 @@ Make sure your internet connection is active because I am using the Content Deli
 -   Create a database, name it 'laravel_ikionic'.
 -   Setup .env file
 -   Run `composer install` and `php artisan key:generate`.
--   When you see the login page, head over the register page, create an account and log in. After that you wil able to get comment on feedback .
+-   When you see the login page, head over the register page, create an account and log in. After that you wil able do following thiings Add ,Comments,Like,Dislikes FeedBack.
+-   `php artisan migrate` For Migration Table Into Database
 -   You can utilize the database seeder by running the command `php artisan db:seed` to generate synthetic or test data for application.
 
-## Objective ✅
+## Solution ✅
 
 Demo Video:
 
@@ -36,7 +37,7 @@ https://drive.google.com/file/d/1OOL6PhEboJQn603BkwT18dHqvHi_YcQj/view?usp=shari
         'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
      ];
 
-## Markdown Format
+## Markdown Format For Comment
 
     use     **Bold text**
     use        *italic text*
