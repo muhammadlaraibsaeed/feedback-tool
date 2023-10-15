@@ -51,3 +51,8 @@ https://drive.google.com/file/d/1OOL6PhEboJQn603BkwT18dHqvHi_YcQj/view?usp=shari
 <!-- Link For Mailtrap -->
 
 https://mailtrap.io/home
+
+## Queue IN laravel
+
+-   To ensure that comments, likes, and dislikes are queued properly and email notifications are sent,
+-   Make sure to run the `php artisan queue:work` command in the background. If you don't, the queued tasks will stay in the jobs table, and no email notifications will be sent.
