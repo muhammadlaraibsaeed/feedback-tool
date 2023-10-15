@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1OOL6PhEboJQn603BkwT18dHqvHi_YcQj/view?usp=shari
     use        *italic text*
     use    ```Block Code text```
 
-## Notification Information Setting
+## Notification Setting
 
 -   I have set up Mailtrap to send notifications for comments, likes, or dislikes on feedback.
 -   Please ensure that your email settings are correctly configured in the `.env` file.
