@@ -54,7 +54,7 @@ Route::middleware('auth')->group(function(){
     Route::controller(CommentController::class)->group(function(){
         Route::get('show/comment','showComment')->name('show.comment');
     });
-
+    // klaklksa
     Route::controller(AdminCategoryController::class)->group(function(){
         Route::get('show/category',"showCategory")->name('show.category');
     });
